@@ -1,0 +1,5 @@
+to target periods only comming after 1 or 2 numbers - (?<![a-z\.])([^0-9A-Za-z\s,":-;-])
+
+for beginning numbers - ([^a-zA-Z\s,-\.;"?'!\]]){1,2}
+ ("[0-9]{1,2}")
+ ([,](?<=))[^](?!<=a-zA-Z\s)[^\w\n}"]
