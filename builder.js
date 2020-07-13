@@ -4,7 +4,7 @@ const log = console.log;
 // const data = fs.readFileSync("baruch_2.json");
 
 const getData = (chp) => {
-  let rawdata = fs.readFileSync("baruch_2.json");
+  let rawdata = fs.readFileSync("Baruch/baruch_2.json");
   let data = JSON.parse(rawdata);
 
   const { verses } = data;
@@ -15,5 +15,12 @@ const getData = (chp) => {
   });
 };
 
-const test = getData(1);
-log(test);
+// const test = getData(1);
+//log(test);
+
+let rawdata = fs.readFileSync("Leviticus/Leviticus_1.json");
+let scripts = JSON.parse(rawdata);
+
+const { verses } = scripts;
+
+log(verses.map((item) => item.text));
