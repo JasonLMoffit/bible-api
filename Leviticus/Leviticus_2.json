@@ -1,102 +1,101 @@
 {
-  
   "reference": "Leviticus_2",
   "verses": [
-  "chapter": 2,
-  "book": "Leviticus",
-  {
-  "verse": 1,
-  "text": "When a person brings an offering—that is, a grain offering to the LORD, his offering is to consist of fine flour. He is to pour olive oil mixed with frankincense over it."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 2,
-  "text": "Then he is to bring it to Aaron's sons, the priests. He is to take a handful of fine flour, the olive oil, and all of the frankincense. Then the priest is to offer a memorial offering by fire, an aroma pleasing to the LORD."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 3,
-  "text": "The remnants from the grain offering is for Aaron and his sons—the holiest of the offerings made by fire to the LORD."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 4,
-  "text": "When you bring an offering—that is, a grain offering baked in an oven, it is to consist of fine flour baked into unleavened bread mixed with olive oil or of wafers made of unleavened bread and smeared with olive oil."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 5,
-  "text": "If your grain offering has been prepared on a griddle, then it is to consist of fine flour mixed with olive oil."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 6,
-  "text": "Crumble it into morsels of bread and then pour olive oil on it. It's a grain offering."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 7,
-  "text": "When your grain offering has been prepared in a stew pan, it is to consist of fine flour mixed with olive oil."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 8,
-  "text": "Bring the grain offering that you prepared from these ingredients to the LORD. Present it to the priest, who will bring it to the altar."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 9,
-  "text": "Then the priest will dedicate some of the grain offering as a memorial offering and offer it in smoke on the altar, an offering by fire that will be a pleasing aroma to the LORD."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 10,
-  "text": "The remainder from the memorial offering is for Aaron and his sons—the holiest of the offerings made by fire to the LORD."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 11,
-  "text": "Any grain offering that you bring to the LORD is not to be prepared with yeast, because anything with leaven and honey may not be offered in smoke as an offering by fire to the LORD."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 12,
-  "text": "You may bring them to the LORD as an offering of first fruits, but they are not to be offered on the altar for a pleasing aroma."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 13,
-  "text": "Also, be sure to rub every offering from your grain offering with salt. You are not to ever remove the salt of the covenant of your God from your grain offering. Present all your offerings with salt."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 14,
-  "text": "Whenever you bring a grain offering of first fruits to the LORD, bring fresh barley, roasted in fire, young kernels crushed into bits. Bring the grain offering with your first fruits"
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 15,
-  "text": "and then pour olive oil and frankincense over it as a grain offering."
-},
-{
-  "chapter": 2,
-  "book": "Leviticus",
-  "verse": 16,
-  "text": "The priest is to offer the memorial offering in smoke—its crushed bits, olive oil, and frankincense—as an offering by fire to the LORD."
-},
+    "chapter": 2,
+    "book": "Leviticus",
+    {
+      "verse": 1,
+      "text": "When a person brings an offering—that is, a grain offering to the LORD, his offering is to consist of fine flour. He is to pour olive oil mixed with frankincense over it."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 2,
+      "text": "Then he is to bring it to Aaron's sons, the priests. He is to take a handful of fine flour, the olive oil, and all of the frankincense. Then the priest is to offer a memorial offering by fire, an aroma pleasing to the LORD."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 3,
+      "text": "The remnants from the grain offering is for Aaron and his sons—the holiest of the offerings made by fire to the LORD."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 4,
+      "text": "When you bring an offering—that is, a grain offering baked in an oven, it is to consist of fine flour baked into unleavened bread mixed with olive oil or of wafers made of unleavened bread and smeared with olive oil."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 5,
+      "text": "If your grain offering has been prepared on a griddle, then it is to consist of fine flour mixed with olive oil."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 6,
+      "text": "Crumble it into morsels of bread and then pour olive oil on it. It's a grain offering."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 7,
+      "text": "When your grain offering has been prepared in a stew pan, it is to consist of fine flour mixed with olive oil."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 8,
+      "text": "Bring the grain offering that you prepared from these ingredients to the LORD. Present it to the priest, who will bring it to the altar."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 9,
+      "text": "Then the priest will dedicate some of the grain offering as a memorial offering and offer it in smoke on the altar, an offering by fire that will be a pleasing aroma to the LORD."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 10,
+      "text": "The remainder from the memorial offering is for Aaron and his sons—the holiest of the offerings made by fire to the LORD."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 11,
+      "text": "Any grain offering that you bring to the LORD is not to be prepared with yeast, because anything with leaven and honey may not be offered in smoke as an offering by fire to the LORD."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 12,
+      "text": "You may bring them to the LORD as an offering of first fruits, but they are not to be offered on the altar for a pleasing aroma."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 13,
+      "text": "Also, be sure to rub every offering from your grain offering with salt. You are not to ever remove the salt of the covenant of your God from your grain offering. Present all your offerings with salt."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 14,
+      "text": "Whenever you bring a grain offering of first fruits to the LORD, bring fresh barley, roasted in fire, young kernels crushed into bits. Bring the grain offering with your first fruits"
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 15,
+      "text": "and then pour olive oil and frankincense over it as a grain offering."
+    },
+    {
+      "chapter": 2,
+      "book": "Leviticus",
+      "verse": 16,
+      "text": "The priest is to offer the memorial offering in smoke—its crushed bits, olive oil, and frankincense—as an offering by fire to the LORD."
+    }S
   ]
 }
