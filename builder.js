@@ -1,11 +1,14 @@
 const fs = require("fs");
 const log = console.log;
 
+//const step_1 = RegExp(`/(()()/gi`);
+const carReturn = RegExp(`\n`);
+
 // const data = fs.readFileSync("baruch_2.json");
 
 const getData = (chp) => {
   let rawdata = fs.readFileSync("Baruch/baruch_2.json");
-  let data = JSON.parse(rawdata);
+  let data = rawdata;
 
   const { verses } = data;
   verses.map((item) => {
@@ -18,9 +21,13 @@ const getData = (chp) => {
 // const test = getData(1);
 //log(test);
 
-let rawdata = fs.readFileSync("Leviticus/Leviticus_1.json");
+let rawdata = fs.readFileSync("Leviticus/Leviticus_5.json");
 let scripts = JSON.parse(rawdata);
 
 const { verses } = scripts;
+const test = verses.flatMap((item) => {
+  const step_1 = item.toString().match(step_1).replace(carReturn);
+});
+log(test);
 
-log(verses.map((item) => item.text));
+//const first_step = scripts.replace(step_1, /\r/);
