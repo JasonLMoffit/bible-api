@@ -1,9 +1,10 @@
 {
-  "reference": "Leviticus_2",
+  "Book": "Leviticus",
+  "chapter": 2,
   "verses": [
-    "chapter": 2,
-    "book": "Leviticus",
     {
+      "chapter": 2,
+      "book": "Leviticus",
       "verse": 1,
       "text": "When a person brings an offering—that is, a grain offering to the LORD, his offering is to consist of fine flour. He is to pour olive oil mixed with frankincense over it."
     },

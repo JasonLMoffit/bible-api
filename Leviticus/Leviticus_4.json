@@ -1,9 +1,10 @@
 {
-  "reference": "Leviticus_4",
   "book": "Leviticus",
   "chapter": 4,
   "verses": [
     {
+      "book": "Leviticus",
+      "chapter": 4,
       "verse": 1,
       "text": "The LORD spoke to Moses:"
     },
