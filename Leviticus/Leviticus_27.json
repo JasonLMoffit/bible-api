@@ -1,1 +1,211 @@
-Lev 27:1-34  The LORD spoke to Moses,  (2)  "Tell the Israelis that when a person makes a special vow based on the appropriate value of people who belong to the LORD,  (3)  if your valuation of the vow is for a male from 20 to 60 sixty years old, the valuation is to be fifty shekels of silver, according to the shekel of the sanctuary.  (4)  "If she is a female from 20 to 60 years old, then your valuation is to be 30 shekels according to the shekel of the sanctuary.  (5)  "If a person is from five to 20 twenty years, then your valuation for a male is to be 20 shekels and for a female ten shekels.  (6)  "If a person is from one month to five years old, then your valuation for a male is to be five shekels of silver, and for a female your valuation is to be three shekels of silver.  (7)  "If a person is 60 or more years old, then your valuation for a male is to be fifteen shekels and for a female ten shekels.  (8)  "But if he be too poor to be valuated, then cause him to stand before the priest and let the priest set a value on him according to the ability of the one making the vow.  (9)  "If it's an animal from which they make an offering to the LORD, everything that he gives to the LORD from it will be holy.  (10)  He is not to substitute it or exchange it—the good with the bad or the bad with the good. "If he ever makes an exchange of an animal for an animal, then it and what's being exchanged is holy.  (11)  "If any animal is unclean, which cannot be brought to the LORD as an offering, make the animal stand in the presence of the priest,  (12)  then the priest will evaluate it as to whether it is good or bad. According to your—that is, the priest's—valuation, so it is to be.  (13)  If a kinsman redeemer decides to redeem it, then he is to add a fifth to your valuation."  (14)  "If a person consecrates his house to be holy to the LORD, then the priest is to set a value for it as to its worth, whether good or bad. As the priest sets value on it, so it will stand.  (15)  "And if he that consecrated it wishes to redeem his house, he is to add one fifth to your valuation, after which it is to belong to him.  (16)  "If a person consecrates a portion of the field from his inheritance to the LORD, then your valuation is to be based on its capacity for yielding a harvest. Each homer of barley is to be valued at 50 shekels of silver.  (17)  "If he consecrates his field in the year of jubilee, it is to be based on your valuation.  (18)  "If he consecrates his field after the jubilee, then the priest is to account to him the silver according to the years that remain until the year of jubilee, with a deduction corresponding to your valuation.  (19)  "If the one who consecrated the field intends to redeem it, then he is to add one fifth of your valuation to it in silver, then it is to be established as his.  (20)  "But if he won't redeem the field, but instead sells it to another person, then it is not to be redeemed anymore.  (21)  When the field is released in the jubilee, it will be holy to the LORD. As a field that's devoted, it is to belong to the priest as his inheritance.  (22)  "If he consecrates a field that he had bought and that isn't part of his inheritance,  (23)  then the priest is to account to him the evaluated worth until the year of jubilee. Then he is to give the amount of valuation on that day as a holy gift to the LORD.  (24)  "During the year of jubilee, the field is to be returned by the one who originally sold it, that is, to the owner of the land.  (25)  Every valuation is to be according to the shekel of the sanctuary, evaluated at 20 gerahs to the shekel.  (26)  "No person is to consecrate the first born, because the first born of the animals already belongs to the LORD. Whether ox or goat, it belongs to the LORD.  (27)  If it's an unclean animal, then he is to ransom it according to your valuation, adding a fifth to it. If it's not redeemed then it is to be sold according to your valuation.  (28)  "However, any devoted thing, that a person consecrates to the LORD from what he owns, whether man, animals, or inherited fields, is not to be sold or redeemed. Any devoted thing is most sacred. It belongs to the LORD.  (29)  But anyone who is completely devoted from among human beings is not to be ransomed. He is certainly to be put to death.  (30)  "Any tithes of the land from grain grown on the land or from fruit grown on the trees belong to the LORD. It's sacred to the LORD.  (31)  But if a person wishes to redeem his tithe, he is to add a fifth to it.  (32)  "All the tithes from cattle and flocks that pass under the measuring rod are sacred to the LORD.  (33)  He is not to examine it to see if it's good or bad or even exchange it. If he does exchange it, what has been exchanged as well as its substitute is sacred. It is not to be redeemed."  (34)  These are the commands, that the LORD commanded Moses to deliver to the Israelis on Mount Sinai.
+{
+  "book": "Leviticus",
+  "chapter": 27,
+  "version": "ISV",
+  "verses": [
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 1,
+      "text": "The LORD spoke to Moses,"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 2,
+      "text": "'Tell the Israelis that when a person makes a special vow based on the appropriate value of people who belong to the LORD,"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 3,
+      "text": "if your valuation of the vow is for a male from 20 to 60 sixty years old, the valuation is to be fifty shekels of silver, according to the shekel of the sanctuary."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 4,
+      "text": "'If she is a female from 20 to 60 years old, then your valuation is to be 30 shekels according to the shekel of the sanctuary."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 5,
+      "text": "'If a person is from five to 20 twenty years, then your valuation for a male is to be 20 shekels and for a female ten shekels."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 6,
+      "text": "'If a person is from one month to five years old, then your valuation for a male is to be five shekels of silver, and for a female your valuation is to be three shekels of silver."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 7,
+      "text": "'If a person is 60 or more years old, then your valuation for a male is to be fifteen shekels and for a female ten shekels."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 8,
+      "text": "'But if he be too poor to be valuated, then cause him to stand before the priest and let the priest set a value on him according to the ability of the one making the vow."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 9,
+      "text": "'If it's an animal from which they make an offering to the LORD, everything that he gives to the LORD from it will be holy."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 10,
+      "text": "He is not to substitute it or exchange it—the good with the bad or the bad with the good. 'If he ever makes an exchange of an animal for an animal, then it and what's being exchanged is holy."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 11,
+      "text": "'If any animal is unclean, which cannot be brought to the LORD as an offering, make the animal stand in the presence of the priest,"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 12,
+      "text": "then the priest will evaluate it as to whether it is good or bad. According to your—that is, the priest's—valuation, so it is to be."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 13,
+      "text": "If a kinsman redeemer decides to redeem it, then he is to add a fifth to your valuation.'"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 14,
+      "text": "'If a person consecrates his house to be holy to the LORD, then the priest is to set a value for it as to its worth, whether good or bad. As the priest sets value on it, so it will stand."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 15,
+      "text": "'And if he that consecrated it wishes to redeem his house, he is to add one fifth to your valuation, after which it is to belong to him."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 16,
+      "text": "'If a person consecrates a portion of the field from his inheritance to the LORD, then your valuation is to be based on its capacity for yielding a harvest. Each homer of barley is to be valued at 50 shekels of silver."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 17,
+      "text": "'If he consecrates his field in the year of jubilee, it is to be based on your valuation."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 18,
+      "text": "'If he consecrates his field after the jubilee, then the priest is to account to him the silver according to the years that remain until the year of jubilee, with a deduction corresponding to your valuation."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 19,
+      "text": "'If the one who consecrated the field intends to redeem it, then he is to add one fifth of your valuation to it in silver, then it is to be established as his."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 20,
+      "text": "'But if he won't redeem the field, but instead sells it to another person, then it is not to be redeemed anymore."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 21,
+      "text": "When the field is released in the jubilee, it will be holy to the LORD. As a field that's devoted, it is to belong to the priest as his inheritance."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 22,
+      "text": "'If he consecrates a field that he had bought and that isn't part of his inheritance,"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 23,
+      "text": "then the priest is to account to him the evaluated worth until the year of jubilee. Then he is to give the amount of valuation on that day as a holy gift to the LORD."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 24,
+      "text": "'During the year of jubilee, the field is to be returned by the one who originally sold it, that is, to the owner of the land."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 25,
+      "text": "Every valuation is to be according to the shekel of the sanctuary, evaluated at 20 gerahs to the shekel."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 26,
+      "text": "'No person is to consecrate the first born, because the first born of the animals already belongs to the LORD. Whether ox or goat, it belongs to the LORD."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 27,
+      "text": "If it's an unclean animal, then he is to ransom it according to your valuation, adding a fifth to it. If it's not redeemed then it is to be sold according to your valuation."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 28,
+      "text": "'However, any devoted thing, that a person consecrates to the LORD from what he owns, whether man, animals, or inherited fields, is not to be sold or redeemed. Any devoted thing is most sacred. It belongs to the LORD."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 29,
+      "text": "But anyone who is completely devoted from among human beings is not to be ransomed. He is certainly to be put to death."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 30,
+      "text": "'Any tithes of the land from grain grown on the land or from fruit grown on the trees belong to the LORD. It's sacred to the LORD."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 31,
+      "text": "But if a person wishes to redeem his tithe, he is to add a fifth to it."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 32,
+      "text": "'All the tithes from cattle and flocks that pass under the measuring rod are sacred to the LORD."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 33,
+      "text": "He is not to examine it to see if it's good or bad or even exchange it. If he does exchange it, what has been exchanged as well as its substitute is sacred. It is not to be redeemed.'"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "verse": 34,
+      "text": "These are the commands, that the LORD commanded Moses to deliver to the Israelis on Mount Sinai."
+    }
+  ]
+}

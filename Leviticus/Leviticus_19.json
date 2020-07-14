@@ -1,1 +1,229 @@
-Lev 19:1-37  The LORD spoke to Moses,  (2)  "Tell the entire assembly of Israel that they are to be holy, since I, the LORD your God, am holy.  (3)  "Each of you is to fear his mother and father. "Observe my Sabbaths. I am the LORD your God.  (4)  "You are not to turn to their idols or cast gods out of melted metal for yourselves. I am the LORD your God.  (5)  "When you offer peace offerings to the LORD, offer it for your acceptance.  (6)  Your sacrifice is to be eaten on that day and the next day. Any that remains to the third day is to be incinerated.  (7)  Since it's eaten on the third day, it's unclean. It won't be accepted.  (8)  Any one who eats it will bear the punishment of his sin, since he will have defiled himself regarding the LORD's holy things. That person is to be eliminated from contact with his people."  (9)  "When you reap the harvest of your land, you are not to completely finish harvesting the corners of the field, that is, you are not to pick what remains after you have reaped your harvest.  (10)  You are not to gather your vineyard or pick up the fallen grapes of your vineyard. Leave something for the poor and the resident alien who lives among you. I am the LORD your God."  (11)  "You are not to steal or lie or deal falsely with your neighbor.  (12)  "You are not to use my name to deceive, thereby defiling the name of your God. I am the LORD.  (13)  "You are not to oppress your neighbor or rob him. "The wages of a hired laborer are not to remain in your possession until morning.  (14)  "You are not to curse a deaf person or put a stumbling block before the blind. "You are to fear God. I am the LORD."  (15)  "You are not to be unjust in deciding a case. You are not to show partiality to the poor or honor the great. Instead, decide the case of your neighbor with righteousness."  (16)  "You are not to go around slandering your people. "You are not to stand idle when your neighbor's life is at stake. I am the LORD.  (17)  "You are not to hate your relative in your heart. Rebuke your neighbor if you must, but you are not to incur guilt on account of him.  (18)  "You are not to seek vengeance or hold a grudge against the descendants of your people. Instead, love your neighbor as yourself. I am the LORD."  (19)  "Observe my statutes. "You are not to let your cattle breed with a different species. "You are not to sow your fields with two different kinds of seeds. "You are not to wear clothing made from two different kinds of material.  (20)  "When a person has sexual relations with a woman servant who is engaged to another man, but she had not been completely redeemed nor had her freedom been granted to her, there is to be an inquiry, but they won't be put to death, since she had not been freed.  (21)  "The perpetrator is to bring his guilt offering to the LORD at the entrance of the Tent of Meeting, along with a ram as guilt offering.  (22)  Then the priest is to make atonement for him with the ram as guilt offering in the LORD's presence on account of his sin which he had committed but which has been forgiven him."  (23)  "When you have entered the land and planted all sorts of trees for food, regard its fruit as uncircumcised for the first three years for you. It is not to be eaten.  (24)  During the fourth year, all its fruit is to offered as a holy token of praise to the LORD.  (25)  But on the fifth year, you may eat its fruits to increase its produce for you."  (26)  "You are not to eat anything containing blood, engage in occult practices, or practice fortune telling.  (27)  "You are not to cut your hair in ritualistic patterns on your heads or deface the edges of your beard.  (28)  "You are not to make incisions in your flesh on account of the dead nor submit to cuts or tattoos. I am the LORD.  (29)  "You are not to defile your daughter by engaging her in prostitution so the land won't become filled with wickedness.  (30)  "Observe my Sabbath and stand in awe of my sanctuary. I am the LORD.  (31)  "You are to consult neither mediums nor familiar spirits. You are never to seek them—you'll just be defiled by them. I am the LORD your God.  (32)  "Rise in the presence of the aged and honor the elderly face-to-face. "Fear your God. I am the LORD.  (33)  "If a resident alien lives with you in your land, you are not to mistreat him.  (34)  You are to treat the resident alien the same way you treat the native born among you—love him like yourself, since you were foreigners in the land of Egypt.  (35)  "You are not to act unjustly in deciding a case or when measuring weight and quantity.  (36)  You are to maintain just balances and reliable standards for weights, dry volumes, and liquid volumes. I am the LORD your God, who brought you out of the land of Egypt.  (37)  Observe all my statutes and all my ordinances in order to practice them. I am the LORD."
+{
+  "book": "Leviticus",
+  "chapter": 19,
+  "version": "ISV",
+  "verses": [
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 1,
+      "text": "The LORD spoke to Moses,"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 2,
+      "text": "'Tell the entire assembly of Israel that they are to be holy, since I, the LORD your God, am holy."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 3,
+      "text": "'Each of you is to fear his mother and father. 'Observe my Sabbaths. I am the LORD your God."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 4,
+      "text": "'You are not to turn to their idols or cast gods out of melted metal for yourselves. I am the LORD your God."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 5,
+      "text": "'When you offer peace offerings to the LORD, offer it for your acceptance."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 6,
+      "text": "Your sacrifice is to be eaten on that day and the next day. Any that remains to the third day is to be incinerated."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 7,
+      "text": "Since it's eaten on the third day, it's unclean. It won't be accepted."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 8,
+      "text": "Any one who eats it will bear the punishment of his sin, since he will have defiled himself regarding the LORD's holy things. That person is to be eliminated from contact with his people.'"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 9,
+      "text": "'When you reap the harvest of your land, you are not to completely finish harvesting the corners of the field, that is, you are not to pick what remains after you have reaped your harvest."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 10,
+      "text": "You are not to gather your vineyard or pick up the fallen grapes of your vineyard. Leave something for the poor and the resident alien who lives among you. I am the LORD your God.'"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 11,
+      "text": "'You are not to steal or lie or deal falsely with your neighbor."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 12,
+      "text": "'You are not to use my name to deceive, thereby defiling the name of your God. I am the LORD."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 13,
+      "text": "'You are not to oppress your neighbor or rob him. 'The wages of a hired laborer are not to remain in your possession until morning."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 14,
+      "text": "'You are not to curse a deaf person or put a stumbling block before the blind. 'You are to fear God. I am the LORD.'"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 15,
+      "text": "'You are not to be unjust in deciding a case. You are not to show partiality to the poor or honor the great. Instead, decide the case of your neighbor with righteousness.'"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 16,
+      "text": "'You are not to go around slandering your people. 'You are not to stand idle when your neighbor's life is at stake. I am the LORD."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 17,
+      "text": "'You are not to hate your relative in your heart. Rebuke your neighbor if you must, but you are not to incur guilt on account of him."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 18,
+      "text": "'You are not to seek vengeance or hold a grudge against the descendants of your people. Instead, love your neighbor as yourself. I am the LORD.'"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 19,
+      "text": "'Observe my statutes. 'You are not to let your cattle breed with a different species. 'You are not to sow your fields with two different kinds of seeds. 'You are not to wear clothing made from two different kinds of material."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 20,
+      "text": "'When a person has sexual relations with a woman servant who is engaged to another man, but she had not been completely redeemed nor had her freedom been granted to her, there is to be an inquiry, but they won't be put to death, since she had not been freed."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 21,
+      "text": "'The perpetrator is to bring his guilt offering to the LORD at the entrance of the Tent of Meeting, along with a ram as guilt offering."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 22,
+      "text": "Then the priest is to make atonement for him with the ram as guilt offering in the LORD's presence on account of his sin which he had committed but which has been forgiven him.'"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 23,
+      "text": "'When you have entered the land and planted all sorts of trees for food, regard its fruit as uncircumcised for the first three years for you. It is not to be eaten."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 24,
+      "text": "During the fourth year, all its fruit is to offered as a holy token of praise to the LORD."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 25,
+      "text": "But on the fifth year, you may eat its fruits to increase its produce for you.'"
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 26,
+      "text": "'You are not to eat anything containing blood, engage in occult practices, or practice fortune telling."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 27,
+      "text": "'You are not to cut your hair in ritualistic patterns on your heads or deface the edges of your beard."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 28,
+      "text": "'You are not to make incisions in your flesh on account of the dead nor submit to cuts or tattoos. I am the LORD."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 29,
+      "text": "'You are not to defile your daughter by engaging her in prostitution so the land won't become filled with wickedness."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 30,
+      "text": "'Observe my Sabbath and stand in awe of my sanctuary. I am the LORD."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 31,
+      "text": "'You are to consult neither mediums nor familiar spirits. You are never to seek them—you'll just be defiled by them. I am the LORD your God."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 32,
+      "text": "'Rise in the presence of the aged and honor the elderly face-to-face. 'Fear your God. I am the LORD."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 33,
+      "text": "'If a resident alien lives with you in your land, you are not to mistreat him."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 34,
+      "text": "You are to treat the resident alien the same way you treat the native born among you—love him like yourself, since you were foreigners in the land of Egypt."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 35,
+      "text": "'You are not to act unjustly in deciding a case or when measuring weight and quantity."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 36,
+      "text": "You are to maintain just balances and reliable standards for weights, dry volumes, and liquid volumes. I am the LORD your God, who brought you out of the land of Egypt."
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "verse": 37,
+      "text": "Observe all my statutes and all my ordinances in order to practice them. I am the LORD"
+    }
+  ]
+}
