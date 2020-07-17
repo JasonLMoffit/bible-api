@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JasonLMoffit/bible-api/issues"
   },
-  "homepage": "https://github.com/JasonLMoffit/bible-api#readme"
+  "homepage": "https://github.com/JasonLMoffit/bible-api#readme",
+  "dependencies": {
+    "recursive-readdir": "^2.2.2"
+  }
 }

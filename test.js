@@ -1,30 +1,87 @@
 const lg = console.log;
+const fs = require("fs");
 const script =
-  "Gen 10:1-32  These are the records of Noah's sons, Shem, Ham, and Japheth, to whom descendants were born after the flood.  (2)  Japheth's descendants included Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras.  (3)  Gomer's descendants included Ashkenaz, Riphath, and Togarmah.  (4)  Javan's descendants included Elisha, Tarshish, Kittim, and Dodanim,  (5)  from whom the coastal peoples spread into their own lands and nations, each with their own language and family groups.  (6)  Ham's descendants included Cush, Egypt, Put, and Canaan.  (7)  Cush's descendants included Seba, Havilah, Sabtah, Raamah, and Sabteca. Raamah's descendants included Sheba and Dedan.  (8)  Cush fathered Nimrod, who became the first fearless leader throughout the land.  (9)  He became a fearless hunter in defiance of the LORD. That is why it is said, 'Like Nimrod, a fearless hunter in defiance of the LORD.'  (10)  His kingdom began in the region of Shinar with the cities of Babylon, Erech, Akkad, and Calneh.  (11)  From there he went north to Assyria and built Nineveh, Rehoboth-ir, and Calah,  (12)  along with Resen, which was located between Nineveh and the great city of Calah.  (13)  Egypt fathered the Ludites, the Anamites, the Lehabites, the Naphtuhites,  (14)  the Pathrusites, the Casluhites (from which came the Philistines), and the Caphtorites.  (15)  Canaan fathered Sidon his firstborn, along with the Hittites,  (16)  the Jebusites, the Amorites, the Girgashites,  (17)  the Hivites, the Arkites, the Sinites,  (18)  the Arvadites, the Zemarites, and the Hamathites. Later, the Canaanite families were widely scattered.  (19)  The Canaanite border extended south from Sidon toward Gerar as far as Gaza, and east toward Sodom, Gomorrah, Admah, and Zeboiim, as far as Lasha.  (20)  These are Ham's descendants, listed by their families, each with their own lands, language, and family groups.  (21)  Shem, Japheth's older brother, also had descendants. Shem was the father of the descendants of Eber.  (22)  Shem's sons included Elam, Asshur, Arpachshad, Lud, and Aram.  (23)  Aram's descendants included Uz, Hul, Gether, and Mash.  (24)  Arpachshad fathered Cainan, Cainan fathered Shelah, and Shelah fathered Eber.  (25)  To Eber were born two sons. One was named Peleg, because the earth was divided during his lifetime. His brother was named Joktan.  (26)  Joktan fathered Almodad, Sheleph, Hazarmaveth, Jerah,  (27)  Hadoram, Uzal, Diklah,  (28)  Obal, Abimael, Sheba,  (29)  Ophir, Havilah, and Jobab. All these were Joktan's descendants.  (30)  Their settlements extended from Mesha towards Sephar, the eastern hill country.  (31)  These are Shem's descendants, listed by their families, each with their own lands, language, and family groups.  (32)  These are the families of Noah's sons, according to their records, by their nations. From these people, the nations on the earth spread out after the flood.";
-const test = script.replace(/^\w+\s[0-9]{2}:/, "(");
-const test2 = test.replace(/-[0-9]{2}/, ")");
-//console.log(test2);
-const stripingDoubleQuotes = test2.replace(/(?<!\w)'/g, "'");
-const newLines = stripingDoubleQuotes.replace(
-  /\(/g,
-  '{"book": "Genesis","chapter":10,"verse":'
-);
-const nextStep = newLines.replace(/\)/g, ',"'),
-  step3 = nextStep.replace(/\s\s\{/g, " {"),
-  step4 = step3.replace(/\s\s/g, 'text":'),
-  step5 = step4.replace(/:\s\s/g, ":"),
-  step6 = step5.replace(/"text"\:/g, '"text":"'),
-  step7 = step6.replace(/\s\{/g, '"}, {'),
-  step8 = step7.replace(
-    /{"book": "Genesis","chapter":10,"verse":/,
-    '{"verses":[{"book": "Genesis","chapter":10,"verse":'
-  ),
-  step9 = step8.replace(/\.$/, '."}]}'),
-  step10 = step9.replace(/\,\s/g, ","),
-  step11 = step10.replace(/\s\s/g, "").trim();
+  "Gen 14:1-24  At the time when Amraphel was king of Shinar, Arioch was king of Ellasar, Chedorlaomer was king of Elam, and Tidal was king of the Goiim,  (2)  they engaged in war against King Bera of Sodom, King Birsha of Gomorrah, King Shinab of Admah, King Shemeber of Zeboiim, along with the king of Bela (which was also known as Zoar).  (3)  All of this latter group of kings allied together in the Valley of Siddim (that is, the Salt Sea).  (4)  They were subject to Chedorlaomer for twelve years, but they rebelled in the thirteenth year.  (5)  In the fourteenth year, Chedorlaomer and the kings with him came and defeated the Rephaim in Ashteroth-karnaim, the Zuzites in Ham, the Emites in Shaveh-kiriathaim,  (6)  and the Horites in the hill country of Seir, near El-paran by the desert.  (7)  Next they turned back and came to En-mishpat (which was also known as Kadesh) and conquered all the territory of the Amalekites, along with the Amorites who lived in Hazazon-tamar.  (8)  Then the kings of Sodom, Gomorrah, Admah, Zeboiim, and Bela (which was also known as Zoar) prepared for battle in the Valley of Siddim  (9)  against King Chedorlaomer of Elam, King Tidal of Goiim, King Amraphel of Shinar, and King Arioch of Ellasar—four kings against five.  (10)  Now the Valley of Siddim was full of tar pits, so when the kings of Sodom and Gomorrah fled, some of their people fell into them, while the rest fled to the hill country.  (11)  The conquerors captured all the possessions of Sodom and Gomorrah, including their entire food supply, and then left.  (12)  They also took Abram's nephew Lot and his possessions, since he was living in Sodom.  (13)  Someone escaped, arrived, and reported what had happened to Abram the Hebrew, who was living by the oaks belonging to Mamre the Amorite, whose brothers Eshcol and Aner were allied with Abram.  (14)  When Abram heard that his nephew had been taken prisoner, he gathered together 318 of his trained men, who had been born in his household, and they went out in pursuit as far as Dan.  (15)  During the night, Abram and his servants divided his forces, conquered his enemies, and pursued them as far as Hobah, north of Damascus.  (16)  He recovered all the goods and brought back his nephew Lot, together with his possessions, the women, and the other people.  (17)  After Abram's return from defeating Chedorlaomer and the kings who were with them, the king of Sodom went out to meet with him in the Shaveh Valley (that is, the King's Valley).  (18)  King Melchizedek of Salem brought out bread and wine, since he was serving as the priest of God Most High.  (19)  Melchizedek blessed Abram and said, 'Abram is blessed by God Most High, Creator of heaven and earth,  (20)  and blessed be God Most High, who has delivered your enemies into your control.' Then Abram gave him a tenth of everything.  (21)  The king of Sodom told Abram, 'Return the people to me, and you take the possessions for yourself.'  (22)  But Abram answered the king of Sodom, 'I have made an oath to the LORD God Most High, Creator of heaven and earth,  (23)  that I will not take a thread or a sandal strap or anything that belongs to you, so you won't be able to say, 'I made Abram rich.'  (24)  I will take nothing except what my warriors have eaten. But as for what belongs to the men who were allied with me, including Aner, Eshcol, and Mamre, let them take their share.'";
 
-lg(step11);
-// const regex = /^\w+\s[0-9]{2}:/;
-// const trial = regex.exec(script);
-// trial.splice(trial[0], " ");
-// console.log(trial);
+// const formattedText = script
+//   .replace(/\n(?<!"})/g, "'")
+//   .replace(
+//     /^\w+\s[0-9]{1,2}:/,
+//     '{"book": "Genesis", "chapter": 14, "version": "ISV", "verses":[{"book": "Genesis","chapter":10,"verse":'
+//   )
+//   .replace(/-[0-9]{2}/g, ', "text": "')
+//   .replace(/\((?=[0-9])/g, '{"book": "Genesis","chapter":10,"verse":')
+//   .replace(/(?<=[0-9])\)\s+/gi, ', "text":"')
+//   .replace(/(?<=\s)\{/g, "{")
+//   .replace(/\s\{/g, '"},{')
+//   .replace(/\s\s/g, " ")
+//   .replace(/"text":\s\w/g, '"text": "')
+//   .replace(/\:/g, ": ")
+//   .replace(/$(?!\"\})/i, '"}]}');
+
+// const book = JSON.parse(formattedText).book;
+// const chapter = JSON.parse(formattedText).chapter;
+// lg(chapter);
+// JSON.parse(formattedText).verses.map((verse) => (verse.chapter = chapter));
+// const dynamicText = formattedText;
+
+const recursive = require("recursive-readdir");
+
+recursive("E:/Projects/bible-api/testingProg", function (err, files) {
+  const sortedFiles = files.sort((x, y) => x - y);
+
+  sortedFiles.map((file) => {
+    const dir = file.replace(/\\/g, "/");
+    const path = dir.split(/\\/).splice(0, 4).join("/");
+    const regy = /[0-9]{2}/;
+    const bkRegy = /[a-z]{3}/i;
+    const chapter = file.toString().match(regy);
+    const book = file.toString().match(bkRegy);
+    const list = file.split("\\");
+    const dynamicFile = list[list.length - 1].split("_").pop();
+    dynamicFile.replace(/[0-9]{1,2}/i, chapter);
+    let readyFile;
+    readyFile = file.replace(/dynamicFile/i, `chapter.json`);
+    const formatText = fs.readFile(readyFile, (err, data) => {
+      if (err) throw err;
+
+      const newFile = data
+        .toString()
+        .replace(/\n(?<!"})/g, "'")
+        .replace(
+          /^\w+\s[0-9]{1,2}:/,
+          `{"book": "${book}", "chapter": ${chapter}, "version": "ISV", "verses":[{"book": "${book}","chapter":${chapter},"verse":`
+        )
+        .replace(/-[0-9]{2}/g, ', "text": "')
+        .replace(
+          /\((?=[0-9])/g,
+          `{"book": "${book}","chapter":${chapter},"verse":`
+        )
+        .replace(/(?<=[0-9])\)\s+/gi, ', "text":"')
+        .replace(/(?<=\s)\{/g, "{")
+        .replace(/\s\{/g, '"},{')
+        .replace(/\s\s/g, " ")
+        .replace(/"text":\s\w/g, '"text": "')
+        .replace(/\:/g, ": ")
+        .replace(/$(?!\"\})/i, '"}]}');
+      fs.writeFile(`${path}/`, newFile, function (err) {
+        if (err) {
+          return console.log(err);
+        }
+        lg(newFile);
+        console.log("File saved successfully!");
+      });
+    });
+  });
+});
+
+// fs.writeFile(
+//   Genesis/Genesis_chapter.json,
+//   dynamicText.toString(),
+//   function (err) {
+//     if (err) {
+//       return console.log(err);
+//     }
+//     console.log("File saved successfully!");
+//   }
+// );
