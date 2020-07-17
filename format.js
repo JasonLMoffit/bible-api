@@ -39,12 +39,12 @@ recursive("E:/Projects/bible-api/Numbers", function (err, files) {
         .replace(/"text":\s\w/g, '"text": "')
         .replace(/\:/g, ": ")
         .replace(/$(?!\"\})/i, '"}]}')
-        .replace(/""/g, '"');
+        .replace(/""/g, '"')
+        .replace(/\s+/g, "");
       fs.writeFile(`${path}/`, newFile, function (err) {
         if (err) {
           return console.log(err);
         }
-        lg(newFile);
         console.log("File saved successfully!");
       });
     });
