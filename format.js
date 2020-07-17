@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const recursive = require("recursive-readdir");
 
-recursive("E:/Projects/bible-api/Numbers", function (err, files) {
+recursive("E:/Projects/bible-api/WordOfEl", function (err, files) {
   const sortedFiles = files.sort((x, y) => x - y);
 
   sortedFiles.map((file) => {
