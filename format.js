@@ -2,8 +2,9 @@ const lg = console.log;
 const fs = require("fs");
 
 const recursive = require("recursive-readdir");
+//! /E/Projects/bible/WordOfEl
 
-recursive("E:/Projects/bible-api/WordOfEl", function (err, files) {
+recursive("C:/Users/jmoff/Projects/bible/WordOfEl", function (err, files) {
   const sortedFiles = files.sort((x, y) => x - y);
 
   sortedFiles.map((file) => {
