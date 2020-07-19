@@ -28,20 +28,22 @@ recursive("C:/Users/jmoff/Projects/bible/WordOfEl", function (err, files) {
           /^\w+\s[0-9]{1,2}:/,
           `{"book": "${book}", "chapter": ${chapter}, "version": "ISV", "verses":[{"book": "${book}","chapter":${chapter},"verse":`
         )
-        .replace(/-[0-9]{2}/g, ', "text": "')
+        .replace(/-[0-9]{2}/g, ', "text":"')
         .replace(
-          /\((?=[0-9])/g,
+          /\((?=[0-9]{1,2})/g,
           `{"book": "${book}","chapter":${chapter},"verse":`
         )
         .replace(/(?<=[0-9])\)\s+/gi, ', "text":"')
         .replace(/(?<=\s)\{/g, "{")
         .replace(/\s\{/g, '"},{')
         .replace(/\s\s/g, " ")
-        .replace(/"text":\s\w/g, '"text": "')
+        .replace(/"text":\s\w/g, '"text":"')
         .replace(/\:/g, ": ")
         .replace(/$(?!\"\})/i, '"}]}')
         .replace(/""/g, '"')
-        .replace(/\s+/g, "");
+        .replace(/\s\s/g, "")
+        .replace(/\"&/g, ' "')
+        .trim();
       fs.writeFile(`${path}/`, newFile, function (err) {
         if (err) {
           return console.log(err);
